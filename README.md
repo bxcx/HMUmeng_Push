@@ -1,5 +1,13 @@
 # HMUmeng_Push
-Umeng_Push
+
+[![](https://jitpack.io/v/bxcx/HMUmeng_Push.svg)](https://jitpack.io/#bxcx/HMUmeng_Push)
+
+
+	dependencies {
+	        compile 'com.github.bxcx:HMUmeng_Push:v0.0.1'
+	}
+      
+      
 On your acitvity onCreate:  
       PushAgent.getInstance(this).onAppStart();
   
